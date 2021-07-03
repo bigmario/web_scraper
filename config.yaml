@@ -1,0 +1,14 @@
+news_sites:
+  covidvzla:
+    url: https://covid19.patria.org.ve/noticia/
+    queries:
+      homepage_article_links: '.entry-title a'
+      article_body: '.entry-content'
+      article_title: '.entry-title'
+  fayerwayer:
+    url: https://fayerwayer.com/
+    queries:
+      homepage_article_links: '.MuiCardContent-root a'
+      article_body: '.entry-content'
+      article_title: '.jss58'
+    
